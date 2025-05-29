@@ -1,7 +1,7 @@
 import os
 
 # Caminho do diretório onde estão os arquivos
-diretorio = r"C:\Users\Usuário\Downloads\curriculosAutomação"
+diretorio = r"C:\Users\Usuário\Downloads\sixPart"
 
 # Itera sobre os arquivos no diretório
 for nome_arquivo in os.listdir(diretorio):
@@ -13,3 +13,4 @@ for nome_arquivo in os.listdir(diretorio):
             print(f"Arquivo removido: {nome_arquivo}")
         except Exception as e:
             print(f"Erro ao remover {nome_arquivo}: {e}")
+
