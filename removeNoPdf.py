@@ -1,7 +1,7 @@
 import os
 
 # Caminho da pasta onde estão os arquivos
-pasta = r"C:\Users\Usuário\Downloads\curriculosAutomação"
+pasta = r"C:\Users\Usuário\Downloads\sixPart"
 
 
 # Percorre todos os arquivos da pasta
@@ -14,3 +14,4 @@ for arquivo in os.listdir(pasta):
         print(f"Removido: {arquivo}")
 
 print("Processo concluído!")
+
